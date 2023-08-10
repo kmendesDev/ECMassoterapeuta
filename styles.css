@@ -23,6 +23,13 @@ body {
     padding: 0;
 }
 
+.img-massagista {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
 header {
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
@@ -64,10 +71,11 @@ nav a {
     padding: 40px 0;
 }
 
-.conteudo {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
+h2 {
+    font-family: 'Playfair Display', serif;
+    padding: 40px 0;
+    text-align: center;
+    color: rgb(45, 107, 64);
 }
 
 .texto {
@@ -101,7 +109,6 @@ nav a {
     padding: 40px 0;
     text-align: center;
     color: rgb(45, 107, 64);
-    text-align: center;
 }
 
 .s1 {
