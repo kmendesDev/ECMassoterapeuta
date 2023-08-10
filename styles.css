@@ -12,19 +12,19 @@ header img {
 }
 
 .texto-branco {
-    font-size: 24px;
+    font-size: 18px;
     color: white(90, 129, 102, 0.986);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
     background-image: url('img-back-header-edilene.jpg');
     background-size: cover;
