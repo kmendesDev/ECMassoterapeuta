@@ -1,0 +1,190 @@
+/* Estilos gerais */
+/* Estilo para a imagem no cabeçalho */
+header img {
+    width: 300px;
+    /* Largura desejada */
+    height: auto;
+    /* Mantém a proporção original da imagem */
+    border-radius: 50%;
+    /* Define a borda circular */
+    overflow: hidden;
+    /* Garante que a imagem fique dentro da forma circular */
+}
+
+.texto-branco {
+    font-size: 24px;
+    color: white(90, 129, 102, 0.986);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-image: url('img-back-header-edilene.jpg');
+    background-size: cover;
+    /* Redimensiona a imagem para cobrir todo o espaço do cabeçalho */
+    background-position: center;
+    /* Centraliza a imagem no cabeçalho */
+    height: 500px;
+    /* Altura do cabeçalho */
+    color: white;
+    /* Cor do texto no cabeçalho, se desejar */
+    text-align: center;
+    /* Alinha o conteúdo no centro do cabeçalho */
+    padding-top: 20px;
+    /* Espaçamento superior para o conteúdo */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos da biografia */
+#biografia {
+    background-color: #eee;
+    padding: 40px 0;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.texto {
+    font-family: 'Playfair Display', serif;
+    flex: 1;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.assinatura {
+    font-family: cursive, sans-serif;
+    font-size: 15px;
+}
+
+.imagem-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.imagem-container img {
+    width: 400px;
+    height: auto;
+}
+
+/* Estilos dos serviços */
+#servicos {
+    padding: 40px 0;
+    text-align: center;
+    color: rgb(45, 107, 64);
+    text-align: center;
+}
+
+.s1 {
+    background-image: url('massagem-relaxante.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.s2 {
+    background-image: url('massagem-terapeutica.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.s3 {
+    background-image: url('Cromoterapia.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.s4 {
+    background-image: url('Bambuterapia.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.s5 {
+    background-image: url('Ventosaterapia.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.s6 {
+    background-image: url('moxabustão.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+/* Estilos do formulário de contato */
+#contato {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: rgb(45, 107, 64);
+
+}
+
+#contato a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #27a331;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
